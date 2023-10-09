@@ -2,7 +2,7 @@ Speed test race between Python and C++
 
 Print the total time taken in seconds to finish counting to ten million. 
 
-My computer took 25 seconds for C++ and 41.51 seconds for Python3. 
+My computer took 25 seconds for C++ and 41.51 seconds for Python3 without pycuda. 
 
 Pycuda for Python3 should be much faster than C++. 
 
