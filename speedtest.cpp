@@ -4,7 +4,7 @@
 int main() {
     auto start = std::chrono::high_resolution_clock::now();
 
-    for (int i = 1; i <= 1000000000; ++i) {
+    for (int i = 1; i <= 10000000; ++i) {
         std::cout << i << std::endl;
     }
 
