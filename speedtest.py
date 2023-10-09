@@ -2,7 +2,7 @@ import time
 
 start = time.time()
 
-for i in range(1, 1000000001):
+for i in range(1, 10000001):
     print(i)
 
 end = time.time()
