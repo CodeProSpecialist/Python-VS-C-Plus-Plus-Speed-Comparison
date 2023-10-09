@@ -9,3 +9,9 @@ g++ -o counting_program counting_program.cpp
 Then run on command line:
 
 ./counting_program.cpp
+
+_____________________________________________________________
+
+Run the Python code with the command:
+
+python3 counting_program.py
