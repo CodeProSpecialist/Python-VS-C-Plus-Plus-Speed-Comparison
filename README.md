@@ -17,3 +17,7 @@ _____________________________________________________________
 Run the Python code with the command:
 
 python3 speedtest.py
+
+pip3 install pycuda      # (for #Nvidia #video cards only that have #cuda cores )
+
+python3 python-cuda-speedtest.py
