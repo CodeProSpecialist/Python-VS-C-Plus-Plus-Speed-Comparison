@@ -4,6 +4,8 @@ Print the total time taken in seconds to finish counting to ten million.
 
 My computer took 25 seconds for C++ and 41.51 seconds for Python3. 
 
+Pycuda for Python3 should be much faster than C++. 
+
 For Linux, compile the C++ code into a runnable binary object with the following command: 
 
 g++ -o speedtest speedtest.cpp
