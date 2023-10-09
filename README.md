@@ -8,7 +8,7 @@ g++ -o speedtest speedtest.cpp
 
 Then run on command line:
 
-./speedtest.cpp
+./speedtest
 
 _____________________________________________________________
 
