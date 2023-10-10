@@ -38,8 +38,8 @@ end_time = time.time()
 # Calculate the elapsed time
 elapsed_time = end_time - start_time
 
-# Print the results (up to 1000 for demonstration)
-for i in range(min(10000000, 1000)):
+# Print all numbers from 1 to 10,000,000, one number per line
+for i in range(10000000):
     print(result_cpu[i])
 
 # Print the total time taken
