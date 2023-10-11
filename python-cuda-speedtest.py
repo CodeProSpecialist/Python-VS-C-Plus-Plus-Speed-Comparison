@@ -18,7 +18,7 @@ module = SourceModule(cuda_code)
 count_kernel = module.get_function("count_to_10_million")
 
 # Create an array on the GPU to store the results
-result_gpu = cuda.mem_alloc(10000000 * 4)  # 4 bytes per int
+result_gpu = cuda.mem_alloc(10000000 * 4)   # 4 bytes per int
 
 # Start measuring time
 start_time = time.time()
