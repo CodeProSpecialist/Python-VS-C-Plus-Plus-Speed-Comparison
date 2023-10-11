@@ -40,7 +40,7 @@ elapsed_time = end_time - start_time
 
 # Print all numbers from 1 to 10,000,000, one number per line
 for i in range(10000000):
-    print(result_cpu[i])
+    print(int.from_bytes(result_cpu[i * 4:(i + 1) * 4], byteorder='little'))
 
 # Print the total time taken
 print("Total time taken:", elapsed_time, "seconds")
